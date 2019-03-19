@@ -549,6 +549,13 @@ json-schema@0.2.3:
   resolved "https://registry.yarnpkg.com/json-schema/-/json-schema-0.2.3.tgz#b480c892e59a2f05954ce727bd3f2a4e882f9e13"
   integrity sha1-tIDIkuWaLwWVTOcnvT8qTogvnhM=
 
+json-sql-builder2@^1.0.19:
+  version "1.0.19"
+  resolved "https://registry.yarnpkg.com/json-sql-builder2/-/json-sql-builder2-1.0.19.tgz#c00398eea0b68cc531653a0817a2bc68dafc8067"
+  integrity sha512-GUE0x3d8EICwp68hHOBRk/ooTeHCiv6QrLcU9i0cMxy3e7Xu+yYpl868gb3m52GhqzijcphY+5uvC/WnCSNCmg==
+  dependencies:
+    lodash "^4.17.4"
+
 json-stringify-safe@~5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
@@ -563,6 +570,11 @@ jsprim@^1.2.2:
     extsprintf "1.3.0"
     json-schema "0.2.3"
     verror "1.10.0"
+
+lodash@^4.17.4:
+  version "4.17.11"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
+  integrity sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
 
 media-typer@0.3.0:
   version "0.3.0"
@@ -945,13 +957,6 @@ signal-exit@^3.0.0:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
   integrity sha1-tf3AjxKH6hF4Yo5BXiUTK3NkbG0=
-
-sqlite-to-json@^0.1.3:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/sqlite-to-json/-/sqlite-to-json-0.1.3.tgz#77176e04969e8fe3090d815e777547c42d5901db"
-  integrity sha1-dxduBJaej+MJDYFed3VHxC1ZAds=
-  dependencies:
-    mkdirp "^0.5.1"
 
 sqlite3@^4.0.6:
   version "4.0.6"
