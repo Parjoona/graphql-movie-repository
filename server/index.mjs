@@ -3,6 +3,8 @@ import expressGraphQL from 'express-graphql'
 
 import schema from './schema'
 
+import EpisodeProvider from './providers/EpisodeProvider'
+
 const PORT = 5000
 const app = express()
 
