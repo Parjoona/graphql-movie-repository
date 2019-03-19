@@ -23,9 +23,10 @@ class EpisodeProviderFactory {
   }
 }
 
-(async function generateEpisodeProvider() {
-  const EpisodeProviderObject = await EpisodeProviderFactory.create()
-  console.log(EpisodeProviderObject)
+export default (async function generateEpisodeProvider() {
+  try {
+    return await EpisodeProviderFactory.create()
+  } catch (error) {
+    console.log(error)
+  }
 })()
-
-export default EpisodeProvider
