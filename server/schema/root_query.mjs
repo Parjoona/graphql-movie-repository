@@ -1,7 +1,7 @@
 import graphql from 'graphql'
-const { GraphQLObjectType, GraphQLString, GraphQLInt, GraphQLBoolean } = graphql
+const { GraphQLObjectType, GraphQLString, GraphQLInt, GraphQLBoolean, GraphQLID } = graphql
 
-const EpisodeType = new GraphQLObjectType({
+export const EpisodeType = new GraphQLObjectType({
   name: 'Episode',
   fields: () => ({
     id: {
@@ -28,7 +28,7 @@ const EpisodeType = new GraphQLObjectType({
   })
 })
 
-const CourseType = new GraphQLObjectType({
+export const CourseType = new GraphQLObjectType({
   name: 'Course',
   fields: () => ({
     id: {
@@ -39,12 +39,6 @@ const CourseType = new GraphQLObjectType({
     },
     courseDescription: {
       type: GraphQLString
-    },
-    episode: {
-      type: EpisodeType,
-      resolve(parentValue, args) {
-        return
-      }
     }
   })
 })
