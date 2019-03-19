@@ -1,5 +1,7 @@
 import express from 'express'
 import expressGraphQL from 'express-graphql'
+import database from './database'
+
 import schema from './schema'
 
 const PORT = 5000

@@ -13,9 +13,6 @@ export const EpisodeType = new GraphQLObjectType({
     completed: {
       type: GraphQLBoolean
     },
-    secondsCompleted: {
-      type: GraphQLInt
-    },
     sectionName: {
       type: GraphQLString
     },
